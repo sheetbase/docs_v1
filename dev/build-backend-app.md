@@ -1,8 +1,8 @@
-# Build a backend module
+# Build a backend app
 
-Server module for developing server app.
+Server app is a backend app that run on Google Apps Script server.
 
-- Clone this repo: https://github.com/sheetbase/blank-server-module
+- Clone this repo: https://github.com/sheetbase/blank-server-app
 - See readme for more info.
 
 ## Workflow
@@ -25,5 +25,3 @@ Sheetbase backend module use [@sheetbase/app-scripts](https://github.com/sheetba
 
 - Transpile Typescript code.
 - Bundle transpiled code using Rollup.
-- Generate README file.
-- Generate API reference using Typedoc.

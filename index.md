@@ -8,43 +8,28 @@ Found an error, a typo or want to add new article, please make PRs at [https://g
 
 + [Introducing](/guides/introducing)
 + [Getting started](/guides/getting-started)
-+ [Develop backend](/guides/develop-backend)
-+ [Develop frontend](/guides/develop-frontend)
   
 ### Server
 
-+ [Auth API Key](/server/auth-api-key)
++ [Overview](/server/overview)
 + [Core](/server/core)
 + [Drive](/server/drive)
 + [Gmail](/server/gmail)
-+ [Sheets Nosql](/server/sheets-nosql)
++ [Sheets](/server/sheets)
++ [Auth API Key](/server/auth-api-key)
++ [User password](/server/user-password)
+
+### Client
+
++ [Overview](/client/overview)
 
 ### Angular
 
-+ [Core](/angular/core)
-+ [Drive](/angular/drive)
-+ [Gmail](/angular/gmail)
-+ [Sheets Nosql](/angular/sheets-nosql)
++ [Overview](/angular/overview)
 
 ### CLI
 
-+ [Install](/cli/install)
-+ [$ `google connect`](/cli/google-connect)
-+ [$ `google disconnect`](/cli/google-disconnect)
-+ [$ `google list`](/cli/google-list)
-+ [$ `google default`](/cli/google-default)
-+ [$ `start`](/cli/start)
-+ [$ `setup`](/cli/setup)
-+ [$ `config`](/cli/config)
-+ [$ `config update`](/cli/config-update)
-+ [$ `config import`](/cli/config-import)
-+ [$ `config export`](/cli/config-export)
-+ [$ `urls`](/cli/urls)
-+ [$ `urls open`](/cli/urls-open)
-+ [$ `info`](/cli/info)
-+ [$ `backend`](/cli/backend)
-+ [$ `frontend`](/cli/frontend)
-+ [$ `*`](/cli/x)
++ [Overview](/cli/overview)
 
 ### Add-on
 
@@ -53,7 +38,7 @@ Found an error, a typo or want to add new article, please make PRs at [https://g
 ### Developer
 
 + [Backend module](/dev/build-backend-module)
-+ [Frontend module](/dev/build-frontend-module)
++ [Backend app](/dev/build-backend-app)
 + [Build theme](/dev/build-theme)
 
 ### Misc

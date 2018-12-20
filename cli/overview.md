@@ -1,4 +1,8 @@
-# Install
+# Overview
+
+Sheetbase CLI is a dev tool for conviniently working with a Sheetbase project.
+
+## Install
 
 `npm install -g @sheetbase/cli`
 
