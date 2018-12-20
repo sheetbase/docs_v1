@@ -19,9 +19,9 @@ Found an error, a typo or want to add new article, please make PRs at [https://g
 + [Auth API Key](/server/auth-api-key)
 + [User password](/server/user-password)
 
-### Client
+### Javascript Client
 
-+ [Overview](/client/overview)
++ [Overview](/client-js/overview)
 
 ### Angular
 
@@ -33,7 +33,7 @@ Found an error, a typo or want to add new article, please make PRs at [https://g
 
 ### Add-on
 
-+ [Install & usage](/add-on/install-usage)
++ [Install & usage](/addon/install-usage)
 
 ### Developer
 
