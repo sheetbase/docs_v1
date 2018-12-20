@@ -2,4 +2,6 @@
 
 User authentication system.
 
-TODO
+Install: `TODO`
+
+For guides & API reference: <https://sheetbase.github.io/user-password-server/>
