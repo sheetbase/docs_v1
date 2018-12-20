@@ -10,6 +10,6 @@ A Sheetbase theme (website / app) is a combination of Sheetbase server app and a
 
 ## Sample themes
 
-- Blank Angular: https://github.com/sheetbase-themes/blank-angular
-- Basic Angular: https://github.com/sheetbase-themes/basic-angular
-- Simpleblog Angular: https://github.com/sheetbase-themes/simpleblog-angular
+- Blank Angular: <https://github.com/sheetbase-themes/blank-angular>
+- Basic Angular: <https://github.com/sheetbase-themes/basic-angular>
+- Simpleblog Angular: <https://github.com/sheetbase-themes/simpleblog-angular>

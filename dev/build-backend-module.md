@@ -2,7 +2,7 @@
 
 Server module for developing server app.
 
-- Clone this repo: https://github.com/sheetbase/blank-server-module
+- Clone this repo: <https://github.com/sheetbase/blank-server-module>
 - See readme for more info.
 
 ## Workflow

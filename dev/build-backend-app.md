@@ -2,7 +2,7 @@
 
 Server app is a backend app that run on Google Apps Script server.
 
-- Clone this repo: https://github.com/sheetbase/blank-server-app
+- Clone this repo: <https://github.com/sheetbase/blank-server-app>
 - See readme for more info.
 
 ## Workflow

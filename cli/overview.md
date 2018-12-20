@@ -16,7 +16,7 @@ Recommended for developing Google Apps Script.
 
 ### Enable Apps Script API
 
-Go to [https://script.google.com/home/usersettings](https://script.google.com/home/usersettings), then enable the API.
+Go to <https://script.google.com/home/usersettings>, then enable the API.
 
 ### Connect Apps Script in Drive
 

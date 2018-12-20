@@ -1,3 +1,3 @@
-# Google Sheets add-on
+# Google Sheets Add-on
 
-Please see: [https://github.com/316company/sheetbase-tools](https://github.com/316company/sheetbase-tools)
+Please see: <https://github.com/316company/sheetbase-tools>

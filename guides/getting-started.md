@@ -11,5 +11,5 @@ Using Sheetbase to build a website/app.
 
 ## Manually
 
-- Clone a theme, see theme list: https://sheetbase.net/themes
+- Clone a theme, see theme list: <https://sheetbase.net/themes>
 - Start develop and distribution.
