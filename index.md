@@ -1,15 +1,17 @@
 # Sheetbase Documentation
 
-The docs also available at <https://sheetbase.net/docs>.
+The docs original available at <https://sheetbase.net/docs>.
 
-Found an error, a typo or want to add new article, please make PRs at <https://github.com/sheetbase/docs>.
+Found an error, a typo or want to add new articles, please make PRs at <https://github.com/sheetbase/docs>.
 
 ## Table of content
 
 ### Guides
 
 + [Introducing](/guides/introducing)
++ [What news?](/guides/what-news)
 + [Getting started](/guides/getting-started)
++ [Sheetbase.json](/guides/sheetbase-json)
   
 ### Server
 
@@ -31,6 +33,22 @@ Found an error, a typo or want to add new article, please make PRs at <https://g
 ### CLI
 
 + [Overview](/cli/overview)
++ [google](/cli/google)
++ [start](/cli/start)
++ [setup](/cli/setup)
++ [configs](/cli/configs)
++ [config](/cli/config)
++ [urls](/cli/urls)
++ [url](/cli/url)
++ [models](/cli/models)
++ [model](/cli/model)
++ [info](/cli/info)
++ [backend](/cli/backend)
++ [frontend](/cli/frontend)
++ [docs](/cli/docs)
++ [update](/cli/update)
++ [help](/cli/help)
++ [*](/cli/any)
 
 ### Add-on
 
@@ -38,7 +56,7 @@ Found an error, a typo or want to add new article, please make PRs at <https://g
 
 ### Developer
 
-+ [Backend module](/dev/build-backend-module)
++ [Build backend module](/dev/build-backend-module)
 + [Build theme](/dev/build-theme)
 
 ### Misc
