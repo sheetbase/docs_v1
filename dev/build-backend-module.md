@@ -5,12 +5,6 @@ Server module for developing server app.
 - Clone this repo: <https://github.com/sheetbase/blank-server-module>
 - See readme for more info.
 
-## Workflow
-
-- Build: $ `npm run build`
-- Test: $ `npm run test`
-- Upload code to GAS: $ `npm run deploy`
-
 ## Structure
 
 - `src/`: Main source.
@@ -19,6 +13,12 @@ Server module for developing server app.
 - `appsscript.json`: Google apps script config file.
 - `rollup.config.js`: Bundling tool config file.
   
+## Workflow
+
+- Test: $ `npm run test`
+- Build: $ `npm run build`
+- Upload code to GAS: $ `cd deploy && clasp push`
+
 ## Build tool
 
 Sheetbase backend module use [@sheetbase/app-scripts](https://github.com/sheetbase/app-scripts) to build final code that can push to Google Apps Script server for execution.

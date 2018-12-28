@@ -6,6 +6,14 @@ It is free and fast for developer to build a product that do not carry heavy wor
 
 ## Concept
 
-Sheetbase use Google Apps Script for running backend code and other free G Suite services for functionalities, such as: Sheets for Database, Drive for File, Gmail for Mailing, ... Other non-Google service can be used through external api.
+A **Sheetbase project** (aka. Theme/Website/App) contains the BACKEND part and the FRONTEND part, communicates via REST API.
 
-At the frontend, developer can choose whatever framework they love to develop as usually do.
+![Sheetbase](https://sheetbase.net/assets/images/explain.png "https://sheetbase.net")
+
+### Backend
+
+The backend code runs in a cloud environment provides by [Google Apps Script](https://developers.google.com/apps-script/), which features come from a wide range of Google services: Google Sheets for **Database**, Drive for **Storage**, Gmail for **Mailing**, ... and other non-Google services by the external API.
+
+### Frontend
+
+The client side powered by modern Javascript technology and any system that is able to contact a REST API server.

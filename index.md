@@ -1,6 +1,8 @@
 # Sheetbase Documentation
 
-Found an error, a typo or want to add new article, please make PRs at [https://github.com/sheetbase/docs](https://github.com/sheetbase/docs).
+The docs also available at <https://sheetbase.net/docs>.
+
+Found an error, a typo or want to add new article, please make PRs at <https://github.com/sheetbase/docs>.
 
 ## Table of content
 
@@ -17,7 +19,6 @@ Found an error, a typo or want to add new article, please make PRs at [https://g
 + [Gmail](/server/gmail)
 + [Sheets](/server/sheets)
 + [Auth API Key](/server/auth-api-key)
-+ [User password](/server/user-password)
 
 ### Javascript Client
 
@@ -38,7 +39,6 @@ Found an error, a typo or want to add new article, please make PRs at [https://g
 ### Developer
 
 + [Backend module](/dev/build-backend-module)
-+ [Backend app](/dev/build-backend-app)
 + [Build theme](/dev/build-theme)
 
 ### Misc

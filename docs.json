@@ -49,12 +49,6 @@
   },
   "dev" : {
     "articles" : {
-      "build-backend-app" : {
-        "id" : 2,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/dev/build-backend-app.md",
-        "title" : "Build backend app",
-        "url" : "https://docs.sheetbase.net/dev/build-backend-app"
-      },
       "build-backend-module" : {
         "id" : 1,
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/dev/build-backend-module.md",
@@ -74,7 +68,7 @@
   "guides" : {
     "articles" : {
       "getting-started" : {
-        "id" : 2,
+        "id" : 3,
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/getting-started.md",
         "title" : "Getting started",
         "url" : "https://docs.sheetbase.net/guides/getting-started"
@@ -84,6 +78,18 @@
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/introducing.md",
         "title" : "Introducing",
         "url" : "https://docs.sheetbase.net/guides/introducing"
+      },
+      "sheetbase-json" : {
+        "id" : 4,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/sheetbase-json.md",
+        "title" : "Sheetbase.json",
+        "url" : "https://docs.sheetbase.net/guides/sheetbase-json"
+      },
+      "what-news" : {
+        "id" : 2,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/what-news.md",
+        "title" : "Whet news?",
+        "url" : "https://docs.sheetbase.net/guides/what-news"
       }
     },
     "id" : 1,
@@ -144,12 +150,6 @@
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/sheets-server/master/README.md",
         "title" : "Sheets",
         "url" : "https://docs.sheetbase.net/server/sheets"
-      },
-      "user-password" : {
-        "id" : 7,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/user-password-server/master/README.md",
-        "title" : "User Password",
-        "url" : "https://docs.sheetbase.net/server/user-password"
       }
     },
     "id" : 2,
