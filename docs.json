@@ -30,6 +30,102 @@
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/cli/master/README.md",
         "title" : "Overview",
         "url" : "https://docs.sheetbase.net/cli/overview"
+      },
+      "google" : {
+        "id" : 2,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/google.md",
+        "title" : "Google",
+        "url" : "https://docs.sheetbase.net/cli/google"
+      },
+      "start" : {
+        "id" : 3,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/start.md",
+        "title" : "Start",
+        "url" : "https://docs.sheetbase.net/cli/start"
+      },
+      "setup" : {
+        "id" : 4,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/setup.md",
+        "title" : "Setup",
+        "url" : "https://docs.sheetbase.net/cli/setup"
+      },
+      "configs" : {
+        "id" : 5,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/configs.md",
+        "title" : "Configs",
+        "url" : "https://docs.sheetbase.net/cli/configs"
+      },
+      "config" : {
+        "id" : 6,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/config.md",
+        "title" : "Config",
+        "url" : "https://docs.sheetbase.net/cli/config"
+      },
+      "urls" : {
+        "id" : 7,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/urls.md",
+        "title" : "Urls",
+        "url" : "https://docs.sheetbase.net/cli/urls"
+      },
+      "url" : {
+        "id" : 8,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/url.md",
+        "title" : "Url",
+        "url" : "https://docs.sheetbase.net/cli/url"
+      },
+      "models" : {
+        "id" : 9,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/models.md",
+        "title" : "Models",
+        "url" : "https://docs.sheetbase.net/cli/models"
+      },
+      "model" : {
+        "id" : 10,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/model.md",
+        "title" : "Model",
+        "url" : "https://docs.sheetbase.net/cli/model"
+      },
+      "info" : {
+        "id" : 11,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/info.md",
+        "title" : "Info",
+        "url" : "https://docs.sheetbase.net/cli/info"
+      },
+      "backend" : {
+        "id" : 12,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/backend.md",
+        "title" : "Backend",
+        "url" : "https://docs.sheetbase.net/cli/backend"
+      },
+      "frontend" : {
+        "id" : 13,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/frontend.md",
+        "title" : "Frontend",
+        "url" : "https://docs.sheetbase.net/cli/frontend"
+      },
+      "docs" : {
+        "id" : 14,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/docs.md",
+        "title" : "Docs",
+        "url" : "https://docs.sheetbase.net/cli/docs"
+      },
+      "update" : {
+        "id" : 15,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/update.md",
+        "title" : "Update",
+        "url" : "https://docs.sheetbase.net/cli/update"
+      },
+      "help" : {
+        "id" : 16,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/help.md",
+        "title" : "Help",
+        "url" : "https://docs.sheetbase.net/cli/help"
+      },
+      "any" : {
+        "id" : 17,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/any.md",
+        "title" : "*",
+        "url" : "https://docs.sheetbase.net/cli/any"
       }
     },
     "id" : 5,
@@ -88,7 +184,7 @@
       "what-news" : {
         "id" : 2,
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/what-news.md",
-        "title" : "Whet news?",
+        "title" : "What news?",
         "url" : "https://docs.sheetbase.net/guides/what-news"
       }
     },
