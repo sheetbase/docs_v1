@@ -20,13 +20,13 @@ Deploy new version of the backend.
 
 - `sheetbase backend deploy` // push and update the web app
 
-### `install|i` / `uninstall|un` / `run|*`
+### `install|i`, `uninstall|un`, `run|*`
 
 Install or uninstall backend dependencies.
 
 Run a backend script.
 
-- `sheetbase backend install` // install deps
+- `sheetbase backend install` // install dependencies
 - `sheetbase backend run build` // run backend build script
 - `sheetbase backend build` // run backend build script
 
