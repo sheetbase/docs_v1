@@ -193,14 +193,20 @@
   },
   "misc" : {
     "articles" : {
-      "deploy" : {
+      "roadmap" : {
         "id" : 1,
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/misc/roadmap.md",
+        "title" : "Roadmap",
+        "url" : "https://docs.sheetbase.net/misc/roadmap"
+      },
+      "deploy" : {
+        "id" : 2,
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/misc/deploy.md",
         "title" : "Deploy",
         "url" : "https://docs.sheetbase.net/misc/deploy"
       },
       "resources" : {
-        "id" : 2,
+        "id" : 3,
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/misc/resources.md",
         "title" : "Resources",
         "url" : "https://docs.sheetbase.net/misc/resources"
