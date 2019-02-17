@@ -1,260 +1,250 @@
 {
-  "addon" : {
+
+  "introduction": {
+    "title" : "Introduction",
     "articles" : {
-      "install-usage" : {
-        "id" : 1,
-        "mdUrl" : "https://raw.githubusercontent.com/316company/sheetbase-tools/master/README.md",
-        "title" : "Install & usage",
-        "url" : "https://docs.sheetbase.net/addon/install-usage"
-      }
-    },
-    "id" : 6,
-    "title" : "Add-on"
-  },
-  "angular" : {
-    "articles" : {
-      "overview" : {
-        "id" : 1,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/angular/master/README.md",
-        "title" : "Overview",
-        "url" : "https://docs.sheetbase.net/angular/overview"
-      }
-    },
-    "id" : 4,
-    "title" : "Angular"
-  },
-  "cli" : {
-    "articles" : {
-      "overview" : {
-        "id" : 1,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/cli/master/README.md",
-        "title" : "Overview",
-        "url" : "https://docs.sheetbase.net/cli/overview"
+      "intro" : {
+        "title" : "What is Sheetbase?",
+        "url" : "https://docs.sheetbase.net/introduction/intro",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/introduction/intro.md"
       },
-      "google" : {
-        "id" : 2,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/google.md",
-        "title" : "Google",
-        "url" : "https://docs.sheetbase.net/cli/google"
-      },
-      "start" : {
-        "id" : 3,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/start.md",
-        "title" : "Start",
-        "url" : "https://docs.sheetbase.net/cli/start"
-      },
-      "setup" : {
-        "id" : 4,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/setup.md",
-        "title" : "Setup",
-        "url" : "https://docs.sheetbase.net/cli/setup"
-      },
-      "configs" : {
-        "id" : 5,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/configs.md",
-        "title" : "Configs",
-        "url" : "https://docs.sheetbase.net/cli/configs"
-      },
-      "config" : {
-        "id" : 6,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/config.md",
-        "title" : "Config",
-        "url" : "https://docs.sheetbase.net/cli/config"
-      },
-      "urls" : {
-        "id" : 7,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/urls.md",
-        "title" : "Urls",
-        "url" : "https://docs.sheetbase.net/cli/urls"
-      },
-      "url" : {
-        "id" : 8,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/url.md",
-        "title" : "Url",
-        "url" : "https://docs.sheetbase.net/cli/url"
-      },
-      "models" : {
-        "id" : 9,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/models.md",
-        "title" : "Models",
-        "url" : "https://docs.sheetbase.net/cli/models"
-      },
-      "model" : {
-        "id" : 10,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/model.md",
-        "title" : "Model",
-        "url" : "https://docs.sheetbase.net/cli/model"
-      },
-      "info" : {
-        "id" : 11,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/info.md",
-        "title" : "Info",
-        "url" : "https://docs.sheetbase.net/cli/info"
-      },
-      "backend" : {
-        "id" : 12,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/backend.md",
-        "title" : "Backend",
-        "url" : "https://docs.sheetbase.net/cli/backend"
-      },
-      "frontend" : {
-        "id" : 13,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/frontend.md",
-        "title" : "Frontend",
-        "url" : "https://docs.sheetbase.net/cli/frontend"
-      },
-      "docs" : {
-        "id" : 14,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/docs.md",
-        "title" : "Docs",
-        "url" : "https://docs.sheetbase.net/cli/docs"
-      },
-      "update" : {
-        "id" : 15,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/update.md",
-        "title" : "Update",
-        "url" : "https://docs.sheetbase.net/cli/update"
-      },
-      "help" : {
-        "id" : 16,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/help.md",
-        "title" : "Help",
-        "url" : "https://docs.sheetbase.net/cli/help"
-      },
-      "any" : {
-        "id" : 17,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/any.md",
-        "title" : "*",
-        "url" : "https://docs.sheetbase.net/cli/any"
-      }
-    },
-    "id" : 5,
-    "title" : "CLI"
-  },
-  "client-js" : {
-    "articles" : {
-      "overview" : {
-        "id" : 1,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/client/master/README.md",
-        "title" : "Overview",
-        "url" : "https://docs.sheetbase.net/client-js/overview"
-      }
-    },
-    "id" : 3,
-    "title" : "Javascript Client"
-  },
-  "dev" : {
-    "articles" : {
-      "build-backend-module" : {
-        "id" : 1,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/dev/build-backend-module.md",
-        "title" : "Build backend module",
-        "url" : "https://docs.sheetbase.net/dev/build-backend-module"
-      },
-      "build-theme" : {
-        "id" : 3,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/dev/build-theme.md",
-        "title" : "Build theme",
-        "url" : "https://docs.sheetbase.net/dev/build-theme"
-      }
-    },
-    "id" : 7,
-    "title" : "Developer"
-  },
-  "guides" : {
-    "articles" : {
       "getting-started" : {
-        "id" : 3,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/getting-started.md",
         "title" : "Getting started",
-        "url" : "https://docs.sheetbase.net/guides/getting-started"
-      },
-      "introducing" : {
-        "id" : 1,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/introducing.md",
-        "title" : "Introducing",
-        "url" : "https://docs.sheetbase.net/guides/introducing"
+        "url" : "https://docs.sheetbase.net/introduction/getting-started",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/introduction/getting-started.md"
       },
       "sheetbase-json" : {
-        "id" : 4,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/sheetbase-json.md",
-        "title" : "Sheetbase.json",
-        "url" : "https://docs.sheetbase.net/guides/sheetbase-json"
+        "title" : "sheetbase.json",
+        "url" : "https://docs.sheetbase.net/introduction/sheetbase-json",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/introduction/sheetbase-json.md"
       },
-      "what-news" : {
-        "id" : 2,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/guides/what-news.md",
-        "title" : "What news?",
-        "url" : "https://docs.sheetbase.net/guides/what-news"
-      }
-    },
-    "id" : 1,
-    "title" : "Guides"
-  },
-  "misc" : {
-    "articles" : {
       "roadmap" : {
-        "id" : 1,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/misc/roadmap.md",
         "title" : "Roadmap",
-        "url" : "https://docs.sheetbase.net/misc/roadmap"
-      },
-      "deploy" : {
-        "id" : 2,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/misc/deploy.md",
-        "title" : "Deploy",
-        "url" : "https://docs.sheetbase.net/misc/deploy"
+        "url" : "https://docs.sheetbase.net/introduction/roadmap",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/introduction/roadmap.md"
       },
       "resources" : {
-        "id" : 3,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/misc/resources.md",
         "title" : "Resources",
-        "url" : "https://docs.sheetbase.net/misc/resources"
+        "url" : "https://docs.sheetbase.net/introduction/resources",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/introduction/resources.md"
       }
-    },
-    "id" : 8,
-    "title" : "Misc"
+    }
   },
-  "server" : {
+
+  "installation": {
+    "title" : "Installation",
     "articles" : {
-      "auth-api-key" : {
-        "id" : 6,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/auth-api-key-server/master/README.md",
-        "title" : "Auth API Key",
-        "url" : "https://docs.sheetbase.net/server/auth-api-key"
+      "cli" : {
+        "title" : "CLI Installation",
+        "url" : "https://docs.sheetbase.net/installation/cli",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/installation/cli.md"
       },
+      "cdn" : {
+        "title" : "Packages & CDN",
+        "url" : "https://docs.sheetbase.net/installation/cdn",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/installation/cdn.md"
+      }
+    }
+  },
+
+  "building": {
+    "title" : "Building",
+    "articles" : {
+      "starting" : {
+        "title" : "Starting",
+        "url" : "https://docs.sheetbase.net/building/starting",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/building/starting.md"
+      },
+      "structure" : {
+        "title" : "Project Structure",
+        "url" : "https://docs.sheetbase.net/building/structure",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/building/structure.md"
+      },
+      "configuration" : {
+        "title" : "Configuration",
+        "url" : "https://docs.sheetbase.net/building/configuration",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/building/configuration.md"
+      },
+      "backend" : {
+        "title" : "Build backend",
+        "url" : "https://docs.sheetbase.net/building/backend",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/building/backend.md"
+      },
+      "frontend" : {
+        "title" : "Build frontend",
+        "url" : "https://docs.sheetbase.net/building/frontend",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/building/frontend.md"
+      }
+    }
+  },
+
+  "publishing": {
+    "title" : "Publishing",
+    "articles" : {
+      "backend" : {
+        "title" : "Deploy backend",
+        "url" : "https://docs.sheetbase.net/publishing/backend",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/backend.md"
+      },
+      "frontend" : {
+        "title" : "Deploy frontend",
+        "url" : "https://docs.sheetbase.net/publishing/frontend",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/frontend.md"
+      }
+    }
+  },
+
+  "server": {
+    "title" : "Server",
+    "articles" : {
       "core" : {
-        "id" : 2,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/core-server/master/README.md",
         "title" : "Core",
-        "url" : "https://docs.sheetbase.net/server/core"
+        "url" : "https://docs.sheetbase.net/server/core",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/server/core.md"
       },
-      "drive" : {
-        "id" : 4,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/drive-server/master/README.md",
-        "title" : "Drive",
-        "url" : "https://docs.sheetbase.net/server/drive"
-      },
-      "gmail" : {
-        "id" : 5,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/gmail-server/master/README.md",
-        "title" : "Gmail",
-        "url" : "https://docs.sheetbase.net/server/gmail"
-      },
-      "overview" : {
-        "id" : 1,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/server/overview.md",
-        "title" : "Overview",
-        "url" : "https://docs.sheetbase.net/server/overview"
+      "api-key" : {
+        "title" : "API Key",
+        "url" : "https://docs.sheetbase.net/server/api-key",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/server/api-key.md"
       },
       "sheets" : {
-        "id" : 3,
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/sheets-server/master/README.md",
         "title" : "Sheets",
-        "url" : "https://docs.sheetbase.net/server/sheets"
+        "url" : "https://docs.sheetbase.net/server/sheets",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/server/sheets.md"
+      },
+      "user" : {
+        "title" : "User",
+        "url" : "https://docs.sheetbase.net/server/user",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/server/user.md"
+      },
+      "drive" : {
+        "title" : "Drive",
+        "url" : "https://docs.sheetbase.net/server/drive",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/server/drive.md"
+      },
+      "gmail" : {
+        "title" : "Gmail",
+        "url" : "https://docs.sheetbase.net/server/gmail",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/server/gmail.md"
       }
-    },
-    "id" : 2,
-    "title" : "Server"
+    }
+  },
+
+  "client": {
+    "title" : "Client",
+    "articles" : {
+      "javascript" : {
+        "title" : "Javascript",
+        "url" : "https://docs.sheetbase.net/client/javascript",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/client/javascript.md"
+      },
+      "angular" : {
+        "title" : "Angular",
+        "url" : "https://docs.sheetbase.net/client/angular",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/client/angular.md"
+      }
+    }
+  },
+
+  "cli" : {
+    "title": "CLI",
+    "articles" : {
+      "overview" : {
+        "title" : "Overview",
+        "url" : "https://docs.sheetbase.net/cli/overview",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/cli/master/README.md"
+      },
+      "google" : {
+        "title" : "Google",
+        "url" : "https://docs.sheetbase.net/cli/google",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/google.md"
+      },
+      "start" : {
+        "title" : "Start",
+        "url" : "https://docs.sheetbase.net/cli/start",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/start.md"
+      },
+      "setup" : {
+        "title" : "Setup",
+        "url" : "https://docs.sheetbase.net/cli/setup",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/setup.md"
+      },
+      "configs" : {
+        "title" : "Configs",
+        "url" : "https://docs.sheetbase.net/cli/configs",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/configs.md"
+      },
+      "config" : {
+        "title" : "Config",
+        "url" : "https://docs.sheetbase.net/cli/config",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/config.md"
+      },
+      "urls" : {
+        "title" : "Urls",
+        "url" : "https://docs.sheetbase.net/cli/urls",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/urls.md"
+      },
+      "url" : {
+        "title" : "Url",
+        "url" : "https://docs.sheetbase.net/cli/url",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/url.md"
+      },
+      "models" : {
+        "title" : "Models",
+        "url" : "https://docs.sheetbase.net/cli/models",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/models.md"
+      },
+      "model" : {
+        "title" : "Model",
+        "url" : "https://docs.sheetbase.net/cli/model",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/model.md"
+      },
+      "info" : {
+        "title" : "Info",
+        "url" : "https://docs.sheetbase.net/cli/info",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/info.md"
+      },
+      "build" : {
+        "title" : "Build",
+        "url" : "https://docs.sheetbase.net/cli/build",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/build.md"
+      },
+      "deploy" : {
+        "title" : "Deploy",
+        "url" : "https://docs.sheetbase.net/cli/deploy",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/deploy.md"
+      },
+      "backend" : {
+        "title" : "Backend",
+        "url" : "https://docs.sheetbase.net/cli/backend",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/backend.md"
+      },
+      "frontend" : {
+        "title" : "Frontend",
+        "url" : "https://docs.sheetbase.net/cli/frontend",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/frontend.md"
+      },
+      "docs" : {
+        "title" : "Docs",
+        "url" : "https://docs.sheetbase.net/cli/docs",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/docs.md"
+      },
+      "update" : {
+        "title" : "Update",
+        "url" : "https://docs.sheetbase.net/cli/update",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/update.md"
+      },
+      "help" : {
+        "title" : "Help",
+        "url" : "https://docs.sheetbase.net/cli/help",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/help.md"
+      },
+      "any" : {
+        "title" : "*",
+        "url" : "https://docs.sheetbase.net/cli/any",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/cli/any.md"
+      }
+    }
   }
+
 }

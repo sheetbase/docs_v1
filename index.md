@@ -6,29 +6,45 @@ Found an error, a typo or want to add new articles, please make PRs at <https://
 
 ## Table of content
 
-### Guides
+### Introduction
 
-+ [Introducing](/guides/introducing)
-+ [What news?](/guides/what-news)
-+ [Getting started](/guides/getting-started)
-+ [Sheetbase.json](/guides/sheetbase-json)
++ [What is Sheetbase?](/introduction/intro)
++ [Getting started](/introduction/getting-started)
++ [sheetbase.json](/introduction/sheetbase-json)
++ [Roadmap](/introduction/roadmap)
++ [Resources](/introduction/resources)
+
+### Installation
+
++ [CLI Installation](/installation/cli)
++ [Packages & CDN](/installation/cdn)
+
+### Building
+
++ [Starting](/building/starting)
++ [Project structure](/building/structure)
++ [Configuration](/building/configuration)
++ [Build backend](/building/backend)
++ [Build frontend](/building/frontend)
+  
+### Publishing
+
++ [Deploy backend](/publishing/backend)
++ [Deploy frontend](/publishing/frontend)
   
 ### Server
 
-+ [Overview](/server/overview)
 + [Core](/server/core)
++ [API Key](/server/api-key)
++ [Sheets](/server/sheets)
++ [User](/server/user)
 + [Drive](/server/drive)
 + [Gmail](/server/gmail)
-+ [Sheets](/server/sheets)
-+ [Auth API Key](/server/auth-api-key)
 
-### Javascript Client
+### Client
 
-+ [Overview](/client-js/overview)
-
-### Angular
-
-+ [Overview](/angular/overview)
++ [Javascript](/client/javascript)
++ [Angular](/client/angular)
 
 ### CLI
 
@@ -43,24 +59,11 @@ Found an error, a typo or want to add new articles, please make PRs at <https://
 + [models](/cli/models)
 + [model](/cli/model)
 + [info](/cli/info)
++ [build](/cli/build)
++ [deploy](/cli/deploy)
 + [backend](/cli/backend)
 + [frontend](/cli/frontend)
 + [docs](/cli/docs)
 + [update](/cli/update)
 + [help](/cli/help)
 + [*](/cli/any)
-
-### Add-on
-
-+ [Install & usage](/addon/install-usage)
-
-### Developer
-
-+ [Build backend module](/dev/build-backend-module)
-+ [Build theme](/dev/build-theme)
-
-### Misc
-
-+ [Roadmap](/misc/roadmap)
-+ [Deploy](/misc/deploy)
-+ [Resources](/misc/resources)
