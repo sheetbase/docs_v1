@@ -1,7 +1,7 @@
-# Auth API Key Server
+# API Key Server
 
 Sheetbase middleware to authorize with the API Key.
 
-Install: `npm install @sheetbase/auth-api-key-server`
+Install: `npm install @sheetbase/api-key-server`
 
-For guides & API reference: <https://sheetbase.github.io/auth-api-key-server/>
+For guides & API reference: <https://sheetbase.github.io/api-key-server/>
