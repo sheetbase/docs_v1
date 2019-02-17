@@ -2,8 +2,6 @@
 
 The Sheetbase theme config file.
 
-
-
 See sample config file: <https://github.com/sheetbase-themes/simpleblog-angular/blob/master/sheetbase.json>
 
 ```ts

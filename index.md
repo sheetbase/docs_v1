@@ -18,6 +18,7 @@ Found an error, a typo or want to add new articles, please make PRs at <https://
 
 + [CLI Installation](/installation/cli)
 + [Packages & CDN](/installation/cdn)
++ [Environment Setup](/installation/environment)
 
 ### Building
 

@@ -6,7 +6,6 @@ In general, the platform need more tests, bugs fix and improvements.
 
 ## Server modules
 
-- User mangement sytem
 - Image & video management ([Drive](https://developers.google.com/apps-script/reference/drive/) & [Youtube](https://developers.google.com/apps-script/advanced/youtube))
 - Cache module ([Cache service](https://developers.google.com/apps-script/reference/cache/cache-service)), intergrate it in other modules.
 - Properties module ([Properties service](https://developers.google.com/apps-script/reference/properties/properties-service))
@@ -18,12 +17,18 @@ In general, the platform need more tests, bugs fix and improvements.
 ## Client modules
 
 - Improve [@sheetbase/client](https://github.com/sheetbase/client)
-- Improve [@sheetbase/angular](https://github.com/sheetbase/angular)
-- Add wrapper for **Vue**.
-- Add wrapper for **React**.
+- Improve the Angular wrapper [@sheetbase/angular](https://github.com/sheetbase/angular)
+- A wrapper for **Vue**.
+- A wrapper for **React**.
 
 ## Themes
 
 - More free themes to cover more use cases.
+
+## Comparability and alternatives
+
+- More convenient and re-usability theme system.
+- Support Firebase migration.
+- Support more backend stacks: Wordpress, LAMP, MEAN, …
 
 If you find Sheetbase useful, please lend a hand so that it may help more people. Thank you!

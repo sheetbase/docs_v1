@@ -43,6 +43,11 @@
         "title" : "Packages & CDN",
         "url" : "https://docs.sheetbase.net/installation/cdn",
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/installation/cdn.md"
+      },
+      "environment" : {
+        "title" : "Environment Setup",
+        "url" : "https://docs.sheetbase.net/installation/environment",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/installation/environment.md"
       }
     }
   },
