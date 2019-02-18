@@ -2,8 +2,14 @@
 
 ## Build backend distribution package
 
-`sheetbase build -b`
+```sh
+$ sheetbase build -b
+```
 
 ## Deploy/update the backend
 
-`sheetbase deploy -b`
+Backend code is distributed to Google Apps Script server.
+
+```sh
+sheetbase deploy -b
+```

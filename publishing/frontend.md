@@ -2,8 +2,14 @@
 
 ## Build frontend distribution package
 
-`sheetbase build -f`
+```sh
+sheetbase build -f
+```
 
 ## Deploy/update the frontend
 
-`sheetbase deploy -f`
+Frontend deployment configs can be changed in `sheetbase.json`
+
+```sh
+sheetbase deploy -f
+```
