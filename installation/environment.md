@@ -12,9 +12,10 @@ Node is bundled with **npm**, the package manager for JavaScript.
 
 To verify the installation, open a new terminal window and run:
 
-`$ node --version`
-
-`$ npm --version`
+```bash
+$ node --version
+$ npm --version
+```
 
 ## Git
 
@@ -22,11 +23,17 @@ Git is required for publishing the frontend to Gihub Pages, the version control 
 
 To verify the installation, open a new terminal window and run:
 
-`$ git --version`
+```bash
+$ git --version
+```
 
 ## Google Clasp
 
-`$ npm install @google/clasp`
+Google clasp is a tool for developing Google Apps Script project locally. To install, run:
+
+```bash
+$ npm install @google/clasp
+```
 
 ## Google Apps Script
 
