@@ -14,6 +14,7 @@ To verify the installation, open a new terminal window and run:
 
 ```sh
 $ node --version
+
 $ npm --version
 ```
 
