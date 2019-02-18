@@ -12,7 +12,7 @@ Node is bundled with **npm**, the package manager for JavaScript.
 
 To verify the installation, open a new terminal window and run:
 
-```bash
+```sh
 $ node --version
 $ npm --version
 ```
@@ -23,20 +23,26 @@ Git is required for publishing the frontend to Gihub Pages, the version control 
 
 To verify the installation, open a new terminal window and run:
 
-```bash
+```sh
 $ git --version
 ```
 
-## Google Clasp
+## Setup Google account
+
+### Enable Apps Script API
+
+Sheetbase hosts the backend on Google Apps Script, it needs to enable first, go to <https://script.google.com/home/usersettings>, then enable the API. Manage your Google Apps Script projects at <https://script.google.com>.
+
+### Connect Apps Script in Drive
+
+Add manage Google Apps Script from your Google Drive.
+
+`My Drive > Connect more apps > (search for Google Apps Script) > Connect`
+
+### Install Google Clasp
 
 Google clasp is a tool for developing Google Apps Script project locally. To install, run:
 
-```bash
-$ npm install @google/clasp
+```sh
+$ npm install -g @google/clasp
 ```
-
-## Google Apps Script
-
-Enable Apps Script.
-
-TODO

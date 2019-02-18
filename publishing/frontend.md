@@ -1,6 +1,6 @@
 # Deploy frontend
 
-## Build frontend distribution code
+## Build frontend distribution package
 
 `sheetbase build -f`
 

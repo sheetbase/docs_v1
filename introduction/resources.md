@@ -1,6 +1,6 @@
 # Resources
 
-Sheetbase is made posible by many great projects:
+Sheetbase is made possible by many great projects:
 
 + [Google Apps Script](https://developers.google.com/apps-script/)
 + [Google G Suite](https://gsuite.google.com/)

@@ -6,15 +6,15 @@ Sheetbase apps are created and developed primarily through the Sheetbase command
 
 Before proceeding, make sure the latest version of Node.js and npm are installed. See Environment Setup for details. Install the Sheetbase CLI globally with npm:
 
-```bash
-$ npm install -g ionic
+```sh
+$ npm install -g @sheetbase/cli
 ```
 
 ## Start a project
 
 Create a Sheetbase project using one of the pre-made themes, see themes list: <https://sheetbase.net/themes>. Get started with the sheetbase start command:
 
-```bash
+```sh
 $ sheetbase start myApp
 ```
 

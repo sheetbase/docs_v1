@@ -2,37 +2,41 @@
 
 Using Sheetbase to build a website/app.
 
-## Build a website/app
+## Starting
 
-### Using the CLI
+You can use Sheetbase platform to build a REST API only or a fully functional application.
 
-- Install [@sheetbase/cli](https://github.com/sheetbase/cli) $: `npm install -g @sheetbase/cli`.
-- Start a project $: `sheetbase start <project_name>`
+### Build a website/app
 
-### Manually
+Using the CLI, install [@sheetbase/cli](https://github.com/sheetbase/cli) and start a project:
 
-- Clone a theme, see themes list: <https://sheetbase.net/themes>
+```sh
+$ npm install -g @sheetbase/cli
+$ sheetbase start <project_name>
+```
 
-## Build a REST API server
+Or manually, clone a theme from the themes list: <https://sheetbase.net/themes>
 
-- Clone blank backend app: <https://github.com/sheetbase/blank-server-app>
+### Build a REST API server
+
+Clone blank backend app: <https://github.com/sheetbase/blank-server-app>
 
 ## Workflow
 
 The [Sheetbase CLI](https://github.com/sheetbase/cli) provides convenient commands for easyly build and deploy a Sheetbase project.
 
-### Backend/server
+### At the backend (server)
 
-For theme, backend code lives in **backend/** folder.
+For a theme, backend code lives in **backend/** folder.
 
 - Test: $ `sheetbase backend test`
 - Build: $ `sheetbase backend build`
 - Push code to server: $ `sheetbase backend push`
 - Deploy: $ `sheetbase backend deploy`
 
-### Frontend/client
+### At the frontend (client)
 
-For theme, frontend code lives in **frontend/** folder.
+For a theme, frontend code lives in **frontend/** folder.
 
 - Test: $ `sheetbase frontend test`
 - E2E: $ `sheetbase frontend e2e`

@@ -1,6 +1,6 @@
 # Sheetbase.json
 
-The Sheetbase theme config file.
+The Sheetbase project config file.
 
 See sample config file: <https://github.com/sheetbase-themes/simpleblog-angular/blob/master/sheetbase.json>
 
@@ -29,7 +29,7 @@ See sample config file: <https://github.com/sheetbase-themes/simpleblog-angular/
     deployment: {
         // deployment configs
         provider: 'github', // deployment provider
-        url: 'https://<org>.github.io/<repo>', // github url or custom domain
+        url: 'https://<org>.github.io/<repo>', // app domain
         // srcDir: '', // path to 'src' folder, default: ./frontend/src
         // wwwDir: '', // path to 'www' folder, default: ./frontend/www
         // stagingDir: '', // custom staging folder, default: ~/sheetbase_staging/<project_name>
@@ -41,7 +41,7 @@ See sample config file: <https://github.com/sheetbase-themes/simpleblog-angular/
     },
     prerender: {
         // prerender configs
-        // see: https://github.com/sheetbase/cli/blob/44d04d8f682d308cc8de816016b5198a57a7d567/src/services/project.ts#L31
+        // see SheetbasePrerender interface: https://github.com/sheetbase/cli/blob/44d04d8f682d308cc8de816016b5198a57a7d567/src/services/project.ts#L31
 
         // [table: string]: SheetbasePrerender,
     }

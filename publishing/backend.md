@@ -1,6 +1,6 @@
 # Deploy backend
 
-## Build backend distribution code
+## Build backend distribution package
 
 `sheetbase build -b`
 

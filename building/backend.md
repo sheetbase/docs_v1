@@ -1,9 +1,13 @@
 # Build the backend
 
-## Code
+## Developing
 
 TODO
 
 ## Generate the distribution package
 
-`$ sheetbase build --backend`
+Sheetbase CLI provides a `build` command for building the project distribution package. To build the backend.
+
+```sh
+$ sheetbase build --backend
+```

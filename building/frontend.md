@@ -1,9 +1,13 @@
 # Build the frontend
 
-## Code
+## Devloping
 
 TODO
 
 ## Generate the distribution package
 
-`$ sheetbase build --frontend`
+Sheetbase CLI provides a `build` command for building the project distribution package. To build the frontend.
+
+```sh
+$ sheetbase build --frontend
+```

@@ -25,7 +25,7 @@ In general, the platform need more tests, bugs fix and improvements.
 
 - More free themes to cover more use cases.
 
-## Comparability and alternatives
+## Compatibility and alternatives
 
 - More convenient and re-usability theme system.
 - Support Firebase migration.
