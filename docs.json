@@ -91,10 +91,30 @@
         "url" : "https://docs.sheetbase.net/publishing/backend",
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/backend.md"
       },
-      "frontend" : {
-        "title" : "Deploy frontend",
-        "url" : "https://docs.sheetbase.net/publishing/frontend",
-        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/frontend.md"
+      "website" : {
+        "title" : "Frontend as a website",
+        "url" : "https://docs.sheetbase.net/publishing/website",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/website.md"
+      },
+      "progressive-web-app" : {
+        "title" : "Progressive Web App",
+        "url" : "https://docs.sheetbase.net/publishing/progressive-web-app",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/progressive-web-app.md"
+      },
+      "app-store" : {
+        "title" : "iOS App Store",
+        "url" : "https://docs.sheetbase.net/publishing/app-store",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/app-store.md"
+      },
+      "play-store" : {
+        "title" : "Android Play Store",
+        "url" : "https://docs.sheetbase.net/publishing/play-store",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/play-store.md"
+      },
+      "desktop-app" : {
+        "title" : "Desktop App",
+        "url" : "https://docs.sheetbase.net/publishing/desktop-app",
+        "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/desktop-app.md"
       }
     }
   },

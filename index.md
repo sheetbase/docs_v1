@@ -31,7 +31,11 @@ Found an error, a typo or want to add new articles, please make PRs at <https://
 ### Publishing
 
 + [Deploy backend](/publishing/backend)
-+ [Deploy frontend](/publishing/frontend)
++ [Frontend as a website](/publishing/website)
++ [Progressive Web App](/publishing/progressive-web-app)
++ [iOS App Store](/publishing/app-store)
++ [Android Play Store](/publishing/play-store)
++ [Desktop App](/publishing/desktop-app)
   
 ### Server
 
