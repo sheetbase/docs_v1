@@ -8,7 +8,7 @@ It is free and fast for developer to build a product that do not carry heavy wor
 
 A **Sheetbase project** (aka. a Sheetbase Theme/Website/App) contains the BACKEND part and the FRONTEND part, communicates via REST API.
 
-![Sheetbase](https://sheetbase.net/assets/images/explain.png "https://sheetbase.net")
+![Sheetbase](https://sheetbase.dev/assets/images/explain.png "https://sheetbase.dev")
 
 ### At the server (backend)
 
@@ -27,6 +27,6 @@ It's been some time since the [first introducing of Sheetbase](https://medium.co
 - Redesign theme system.
 - Official [Javascript client](https://github.com/sheetbase/client) (w/ framework wrappers: [Angular](https://github.com/sheetbase/angular), ...).
 - Rebuild the CLI.
-- Rebuild themes: <https://sheetbase.net/themes>.
+- Rebuild themes: <https://sheetbase.dev/themes>.
 
 Hope you enjoy! Love <3

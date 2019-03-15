@@ -32,7 +32,7 @@ sheetbase start <project_name>
 
 Example: `sheetbase start myapp` or `sheetbase start "My Awesome Website"`
 
-Or manually, clone a theme from the themes list: <https://sheetbase.net/themes>
+Or manually, clone a theme from the themes list: <https://sheetbase.dev/themes>
 
 ### Install dependencies
 

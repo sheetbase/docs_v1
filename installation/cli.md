@@ -12,7 +12,7 @@ npm install -g @sheetbase/cli
 
 ## Start a project
 
-Create a Sheetbase project using one of the pre-made themes, see themes list: <https://sheetbase.net/themes>. Get started with the sheetbase start command:
+Create a Sheetbase project using one of the pre-made themes, see themes list: <https://sheetbase.dev/themes>. Get started with the sheetbase start command:
 
 ```sh
 sheetbase start myapp

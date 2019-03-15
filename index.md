@@ -1,6 +1,6 @@
 # Sheetbase Documentation
 
-The docs original available at <https://sheetbase.net/docs>.
+The docs original available at <https://sheetbase.dev/docs>.
 
 Found an error, a typo or want to add new articles, please make PRs at <https://github.com/sheetbase/docs>.
 
