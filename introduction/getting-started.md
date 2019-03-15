@@ -18,7 +18,7 @@ npm install -g @sheetbase/cli@latest
 
 Enable Apps Script API, go to <https://script.google.com/home/usersettings>, then enable the API.
 
-Add manage Google Apps Script from your Google Drive:
+Add and manage Google Apps Script from your Google Drive:
 
 `My Drive (click dropdown) > More > Connect more apps > (search for Google Apps Script) > Connect`
 

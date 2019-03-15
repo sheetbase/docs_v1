@@ -1,4 +1,4 @@
-# Installing Sheetbase CLI
+# The Sheetbase CLI
 
 Sheetbase apps are created and developed primarily through the Sheetbase command-line utility. The Sheetbase CLI is the preferred method of installation, as it offers a wide range of dev tools and help options along the way.
 
@@ -15,7 +15,7 @@ $ npm install -g @sheetbase/cli
 Create a Sheetbase project using one of the pre-made themes, see themes list: <https://sheetbase.net/themes>. Get started with the sheetbase start command:
 
 ```sh
-$ sheetbase start myApp
+$ sheetbase start myapp
 ```
 
 To learn more about starting Sheetbase apps, see the Starting Guide.
