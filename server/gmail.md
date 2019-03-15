@@ -81,7 +81,7 @@ Interface for sending email.
 - `quota`: view remaining daily quota.
 - `send`: send email.
 
-## quota
+### quota
 
 View remaining daily quota.
 
@@ -89,7 +89,7 @@ View remaining daily quota.
 const { remainingDailyQuota } = Gmail.quota();
 ```
 
-## send
+### send
 
 Send email.
 
@@ -143,7 +143,7 @@ Gmail.send(
 );
 ```
 
-### Routes
+## Routes
 
 To add routes to your app, see options [AddonRoutesOptions](https://github.com/sheetbase/core-server/blob/eb221ec3034d6b53abe11bc1942e1920c8f8d81f/src/lib/types.ts#L71):
 
@@ -151,7 +151,7 @@ To add routes to your app, see options [AddonRoutesOptions](https://github.com/s
 Gmail.registerRoutes(options?: AddonRoutesOptions);
 ```
 
-#### Default disabled
+### Default disabled
 
 Disabled routes by default, to enable set `{ disabledRoutes: [] }` in `registerRoutes()`:
 
@@ -161,7 +161,7 @@ Disabled routes by default, to enable set `{ disabledRoutes: [] }` in `registerR
 ];
 ```
 
-#### Endpoints
+### Endpoints
 
 #### GET `/mail`
 
