@@ -2,6 +2,17 @@
 
 File management with Drive for Sheetbase backend app.
 
-Install: `npm install @sheetbase/drive-server`
+Git repo: <https://github.com/sheetbase/drive-server/>
 
-For guides & API reference: <https://sheetbase.github.io/drive-server/>
+## Getting started
+
+Install: `npm install --save @sheetbase/drive-server`
+
+Usage:
+
+```ts
+import { drive } from '@sheetbase/drive-server';
+
+const Drive = drive({ /* configs */ });
+
+```
