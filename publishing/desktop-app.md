@@ -30,8 +30,8 @@ There are two hard requirements for publishing an app on the Windows app store
 
 `electron-windows-store` can be installed via npm:
 
-```bash
-$ npm install -g electron-windows-store
+```sh
+npm install -g electron-windows-store
 ```
 
 ### Publishing

@@ -6,8 +6,8 @@ This guide is for frontend apps that based on Angular + Ionic, officially availa
 
 To generate a release build for Android, run the following cli command:
 
-```bash
-$ ionic cordova build android --prod --release
+```sh
+ionic cordova build android --prod --release
 ```
 
 This will generate a release build based on the settings in the `config.xml` in the `platforms/android/build/outputs/apk` directory of an app. An Ionic app will have preset default values in this file but this can be changed to customize builds.
@@ -16,8 +16,8 @@ This will generate a release build based on the settings in the `config.xml` in 
 
 First, the unsigned APK must be signed. If a signing key has already been generated, skip these steps and use that one instead. Generate a private key using the keytool command that comes with the the Android SDK:
 
-```bash
-$ keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+```sh
+keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 Once that command has been ran and its prompts have been answered a file called `my-release-key.keystore` will be created in the current directory.
@@ -26,14 +26,14 @@ WARNING: Save this file and keep it somewhere safe. If it is lost the Google Pla
 
 To sign the unsigned APK, run the jarsigner tool which is also included in the Android SDK:
 
-```bash
-$ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore HelloWorld-release-unsigned.apk alias_name
+```sh
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore HelloWorld-release-unsigned.apk alias_name
 ```
 
 Finally, the zip align tool must be ran to optimize the APK. The `zipalign` tool can be found in `/path/to/Android/sdk/build-tools/VERSION/zipalign`. For example, on macOS with Android Studio installed, `zipalign` is in `~/Library/Android/sdk/build-tools/VERSION/zipalign`:
 
-```bash
-$ zipalign -v 4 HelloWorld-release-unsigned.apk HelloWorld.apk
+```sh
+zipalign -v 4 HelloWorld-release-unsigned.apk HelloWorld.apk
 ```
 
 This generates a final release binary called HelloWorld.apk that can be accepted into the Google Play Store.

@@ -11,7 +11,7 @@ The two main requirements of a PWA are a [Service Worker](https://developers.goo
 The `@angular/pwa` package will automatically add a service worker and a app manifest to the app. To add this package to the app run:
 
 ```sh
-$ ng add @angular/pwa
+ng add @angular/pwa
 ```
 
 Once this package has been added run `npm run build` inside the `frontend/` folder and the `www` directory will be ready to deploy as a PWA.
