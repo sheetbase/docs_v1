@@ -5,7 +5,7 @@ Main configuration file is `sheetbase.json`. You can config your project by edit
 The `configs` field is for app configuration, after changing the value you need to run `$ sheetbase config update` to update config files in the backend and frontend folders. Or set values by running `$ sheetbase config set key=value`, this is the recommended way to set app configs.
 
 ```sh
-$ sheetbase config set key=value
+sheetbase config set key=value
 ```
 
 There may be a frontend app config file, for Angular apps, it located in `frontend/src/app/app.config.ts`. We not include this config file to `sheetbase.json` in case you want to reuse the frontend with different backend stack but not Sheetbase backend.
@@ -88,6 +88,8 @@ Deployment configs for easily deploy frontend app with the Sheetbase CLI. For no
 
 There are two files live in `frontend/src/`, the `prerender.json` for config prerendering and the `robots.txt` for SEO.
 
+`robots.txt` follows the standard format, <http://www.robotstxt.org/>.
+
 Prerendering config format:
 
 ```ts
@@ -120,5 +122,3 @@ Prerendering config format:
   },
 }
 ```
-
-`robots.txt` follows the standard format, <http://www.robotstxt.org/>.
