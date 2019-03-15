@@ -30,6 +30,6 @@ When the backend app requires more scopes, it will show an error message like: `
 2. Click `Deploy as webapp...`
 3. Select the latest version from `Project version:`
 4. Click `Update`
-5. A permission review dialog show up, click `Authorize`
+5. A permission review dialog show up, click `Review Permissions`
 6. Follow [the Oauth process](https://developers.google.com/apps-script/guides/client-verification), feel free to ignore the **unverified app** error
 7. May redeploy the backend: `sheetbase deploy -b`

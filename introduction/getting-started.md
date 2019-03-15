@@ -80,3 +80,17 @@ For an app, frontend code lives in **frontend/** folder.
 If you only wish to build a REST API server, then clone the blank backend app from: <https://github.com/sheetbase/blank-server-app>
 
 It just like buidling a full app, but without the frontend part.
+
+## Project customization checklist
+
+Before starting develop the backend and frontend code. You may want to edit these files to customise your project.
+
+- `README.md`
+- `package.json`
+- `LICENSE`
+- `screenshot.jpg`
+- `sheetbase.json` (DO NOT change auto generated values, and remember to run `sheetbase config update` after changing the file)
+- `frontend/src/app/app.config.ts` (project may have separated frontend configs)
+- Frontend theming, for Angular + Ionic, `frontend/src/theme/variables.scss` and Sheetbase theming `frontend/projects/<theme_name>/src/lib/theming/variables.scss`
+
+You want also want to build and deploy the backend for **Review permissions**, see Publishing backend for more.
