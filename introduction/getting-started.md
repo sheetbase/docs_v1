@@ -14,7 +14,7 @@ Install the [Sheetbase CLI](https://github.com/sheetbase/cli), it is the main to
 npm install -g @sheetbase/cli@latest
 ```
 
-## Setup Google account
+### Setup Google account
 
 Enable Apps Script API, go to <https://script.google.com/home/usersettings>, then enable the API.
 
@@ -22,7 +22,7 @@ Add and manage Google Apps Script from your Google Drive:
 
 `My Drive (click dropdown) > More > Connect more apps > (search for Google Apps Script) > Connect`
 
-## Start an app
+### Start an app
 
 Run this command to create a new app, replace `project_name` with your app name (remember to double quote if the name contains space).
 
@@ -34,7 +34,7 @@ Example: `sheetbase start myapp` or `sheetbase start "My Awesome Website"`
 
 Or manually, clone a theme from the themes list: <https://sheetbase.net/themes>
 
-## Install dependencies
+### Install dependencies
 
 The CLI skip installing npm dependencies (`npm install`), you need to install them before start developing.
 
