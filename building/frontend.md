@@ -9,21 +9,19 @@ Develop the frontend app according to the frontend framework: Angular, Vue, Reac
 Sheetbase CLI provides a `build` command for building the project distribution package. To build the frontend.
 
 ```sh
-$ sheetbase frontend build
+sheetbase frontend build
 ```
 
-## Optional frontend building
-
-Pre-render content.
+Optional, pre-render the app.
 
 ```sh
-$ sheetbase frontend prerender
+sheetbase frontend prerender
 ```
 
 ## The `build` command
 
-You can run all the command above with one command.
+You can also run all the command above with one command.
 
 ```sh
-$ sheetbase build --frontend
+sheetbase build --frontend
 ```
