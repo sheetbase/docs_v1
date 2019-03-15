@@ -36,14 +36,7 @@ See sample config file: <https://github.com/sheetbase-themes/simpleblog-angular/
         destination: {
             gitUrl: 'https://github.com/<org>/<repo>.git', // git url
             // master: true, // use master branch
-            // changeBase: true, // change base tag from '/' to github url
         }
-    },
-    prerender: {
-        // prerender configs
-        // see SheetbasePrerender interface: https://github.com/sheetbase/cli/blob/44d04d8f682d308cc8de816016b5198a57a7d567/src/services/project.ts#L31
-
-        // [table: string]: SheetbasePrerender,
     }
 }
 ```

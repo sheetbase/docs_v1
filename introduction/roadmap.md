@@ -27,7 +27,6 @@ In general, the platform need more tests, bugs fix and improvements.
 
 ## Compatibility and alternatives
 
-- More convenient and re-usability theme system.
 - Support Firebase migration.
 - Support more backend stacks: Wordpress, LAMP, MEAN, …
 

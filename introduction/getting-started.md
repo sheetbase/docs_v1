@@ -4,43 +4,79 @@ Using Sheetbase to build a website/app.
 
 ## Starting
 
-You can use Sheetbase platform to build a REST API only or a fully functional application.
+You can use Sheetbase platform to build a REST API only (see below) or a fully functional app.
 
-### Build a website/app
+### The CLI
 
-Using the CLI, install [@sheetbase/cli](https://github.com/sheetbase/cli) and start a project:
+Install the [Sheetbase CLI](https://github.com/sheetbase/cli), it is the main tool for developing project. Make sure you have **Node** and **npm** installed, see Evironment setup for more.
 
 ```sh
-$ npm install -g @sheetbase/cli
-$ sheetbase start <project_name>
+npm install -g @sheetbase/cli@latest
 ```
+
+## Setup Google account
+
+Enable Apps Script API, go to <https://script.google.com/home/usersettings>, then enable the API.
+
+Add manage Google Apps Script from your Google Drive:
+
+`My Drive (click dropdown) > More > Connect more apps > (search for Google Apps Script) > Connect`
+
+## Start an app
+
+Run this command to create a new app, replace `project_name` with your app name (remember to double quote if the name contains space).
+
+```sh
+sheetbase start <project_name>
+```
+
+Example: `sheetbase start myapp` or `sheetbase start "My Awesome Website"`
 
 Or manually, clone a theme from the themes list: <https://sheetbase.net/themes>
 
-### Build a REST API server
+## Install dependencies
 
-Clone blank backend app: <https://github.com/sheetbase/blank-server-app>
+The CLI skip installing npm dependencies (`npm install`), you need to install them before start developing.
+
+Install backend dependencies:
+
+```sh
+cd backend && npm install
+```
+
+Install frontend dependencies:
+
+```sh
+cd frontend && npm install
+```
+
+If you wish the CLI to install dependencies for you, add `-i` (--install) flag with `start` command: `sheetbase start myapp -i`.
 
 ## Workflow
 
-The [Sheetbase CLI](https://github.com/sheetbase/cli) provides convenient commands for easyly build and deploy a Sheetbase project.
+The [Sheetbase CLI](https://github.com/sheetbase/cli) provides convenient commands for easily build and deploy a Sheetbase project.
 
-### At the backend (server)
+### The backend (server)
 
-For a theme, backend code lives in **backend/** folder.
+For an app, backend code lives in **backend/** folder.
 
 - Test: $ `sheetbase backend test`
 - Build: $ `sheetbase backend build`
-- Push code to server: $ `sheetbase backend push`
-- Deploy: $ `sheetbase backend deploy`
+- Push code: $ `sheetbase backend push` (update code in the Apps Script server, without redeploy the webapp)
+- Deploy: $ `sheetbase backend deploy` (push code, save new version and redeploy the webapp)
 
-### At the frontend (client)
+### The frontend (client)
 
-For a theme, frontend code lives in **frontend/** folder.
+For an app, frontend code lives in **frontend/** folder.
 
-- Test: $ `sheetbase frontend test`
-- E2E: $ `sheetbase frontend e2e`
-- Build: $ `sheetbase frontend build`
-- Prerender content: $ `sheetbase frontend prerender`
-- SEO optimization: $ `sheetbase frontend seo`
-- Deploy: $ `sheetbase frontend deploy`
+- Test: $ `sheetbase frontend test` (npm run test)
+- E2E: $ `sheetbase frontend e2e` (npm run e2e)
+- Build: $ `sheetbase frontend build` (npm run build)
+- Prerender: $ `sheetbase frontend prerender` (prerender content, save sitemap.xml & robots.txt)
+- Deploy: $ `sheetbase frontend deploy` (redeploy the a static server)
+
+## Build a REST API server
+
+If you only wish to build a REST API server, then clone the blank backend app from: <https://github.com/sheetbase/blank-server-app>
+
+It just like buidling a full app, but without the frontend part.

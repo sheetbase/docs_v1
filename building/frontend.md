@@ -20,12 +20,6 @@ Pre-render content.
 $ sheetbase frontend prerender
 ```
 
-Generate sitemap.xml and robots.txt
-
-```sh
-$ sheetbase frontend seo
-```
-
 ## The `build` command
 
 You can run all the command above with one command.
