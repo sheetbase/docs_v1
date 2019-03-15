@@ -8,18 +8,29 @@ Run frontend related commands.
 
 ## Sub-commands
 
-### `install|i`, `uninstall|un`, `run|*`
+### `build`
+
+Build frontend distribution package.
+
+- `sheetbase frontend build`
+
+### `deploy`
+
+Deploy the frontend.
+
+- `sheetbase frontend deploy`
+
+### `install|i`, `uninstall|un`, `run`
 
 Install or uninstall frontend dependencies.
 
 Run a frontend script.
 
 - `sheetbase frontend install` // install dependencies
-- `sheetbase frontend run build` // run frontend build script
-- `sheetbase frontend build` // run frontend build script
+- `sheetbase frontend run xxx` // run frontend xxx script
 
 ### `*`
 
 Run a command in frontend folder.
 
-- `sheetbase frontend ng build` // equal `cd frontend && ng build`
+- `sheetbase frontend xxx` // equal `cd frontend && xxx`
