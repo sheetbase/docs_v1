@@ -164,7 +164,7 @@ foo1Ref.update({ title: "Foo 1 new title" }); // update foo-1 title if exists
 foo1Ref.update(null); // delete foo-1
 ```
 
-## key
+### key
 
 Generate a Firebase-liked unique key.
 
@@ -172,7 +172,7 @@ Generate a Firebase-liked unique key.
 const key = Sheets.key(); // -Abc...xyz
 ```
 
-## all
+### all
 
 Get all items of a sheet/table.
 
@@ -181,7 +181,7 @@ const foo = Sheets.all("foo"); // [{}, {}, {}, ...]
 const bar = Sheets.ref("/bar").toObject(); // { item-1: {}, item-2: {}, item-3: {}, ... }
 ```
 
-## query
+### query
 
 Query a sheet/table.
 
@@ -245,7 +245,7 @@ Sheets.query("foo", { where: "categories", childEqual: "cat-1=Cat 1" });
 Sheets.query("foo", { where: "categories", childEqual: "cat-1!=Cat 1" });
 ```
 
-## item
+### item
 
 Get an item of a sheet/table.
 
@@ -292,7 +292,7 @@ Delete an item.
 Sheets.remove("foo", "foo-x");
 ```
 
-### Routes
+## Routes
 
 To add routes to your app, see options [AddonRoutesOptions](https://github.com/sheetbase/core-server/blob/eb221ec3034d6b53abe11bc1942e1920c8f8d81f/src/lib/types.ts#L71):
 
@@ -300,7 +300,7 @@ To add routes to your app, see options [AddonRoutesOptions](https://github.com/s
 Sheets.registerRoutes(options?: AddonRoutesOptions);
 ```
 
-#### Default disabled
+### Default disabled
 
 Disabled routes by default, to enable set `{ disabledRoutes: [] }` in `registerRoutes()`:
 
@@ -313,7 +313,7 @@ Disabled routes by default, to enable set `{ disabledRoutes: [] }` in `registerR
 ];
 ```
 
-#### Endpoints
+### Endpoints
 
 #### GET `/database`
 
