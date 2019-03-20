@@ -90,6 +90,7 @@ Before starting develop the backend and frontend code. You may want to edit thes
 - `LICENSE`
 - `screenshot.jpg`
 - `sheetbase.json` (DO NOT change auto generated values, and remember to run `sheetbase config update` after changing the file)
+- `frontend/src/index.html` (title)
 - `frontend/src/app/app.config.ts` (project may have separated frontend configs)
 - Frontend theming, for Angular + Ionic, `frontend/src/theme/variables.scss` and Sheetbase theming `frontend/projects/<theme_name>/src/lib/theming/variables.scss`
 
