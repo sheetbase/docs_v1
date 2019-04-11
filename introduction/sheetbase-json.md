@@ -26,6 +26,12 @@ See sample config file: <https://github.com/sheetbase-themes/simpleblog-angular/
 
         // [config_key: string]: [description: string, hookName: string, ... hook_args: []]
     },
+    models: [
+        // built-in models
+        // string
+        // or
+        // { from: string, name: string, gid: string | number, public: boolean }
+    ],
     deployment: {
         // deployment configs
         provider: 'github', // deployment provider

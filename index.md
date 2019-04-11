@@ -25,12 +25,12 @@ Found an error, a typo or want to add new articles, please make PRs at <https://
 + [Starting](/building/starting)
 + [Project structure](/building/structure)
 + [Configuration](/building/configuration)
-+ [Build backend](/building/backend)
-+ [Build frontend](/building/frontend)
++ [Build backend](/building/build-backend)
++ [Build frontend](/building/build-frontend)
   
 ### Publishing
 
-+ [Deploy backend](/publishing/backend)
++ [Deploy backend](/publishing/deploy-backend)
 + [Frontend as a website](/publishing/website)
 + [Progressive Web App](/publishing/progressive-web-app)
 + [iOS App Store](/publishing/app-store)

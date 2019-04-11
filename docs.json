@@ -70,12 +70,12 @@
         "url" : "https://docs.sheetbase.net/building/configuration",
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/building/configuration.md"
       },
-      "backend" : {
+      "build-backend" : {
         "title" : "Build backend",
         "url" : "https://docs.sheetbase.net/building/backend",
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/building/backend.md"
       },
-      "frontend" : {
+      "build-frontend" : {
         "title" : "Build frontend",
         "url" : "https://docs.sheetbase.net/building/frontend",
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/building/frontend.md"
@@ -86,7 +86,7 @@
   "publishing": {
     "title" : "Publishing",
     "articles" : {
-      "backend" : {
+      "deploy-backend" : {
         "title" : "Deploy backend",
         "url" : "https://docs.sheetbase.net/publishing/backend",
         "mdUrl" : "https://raw.githubusercontent.com/sheetbase/docs/master/publishing/backend.md"
