@@ -10,7 +10,7 @@ A library for using Sheetbase with any Javascript framework or none of all.
 npm install --save @sheetbase/client@latest
 ```
 
-## Using Sheetbase in Angular (not used yet!)
+## Using Sheetbase in Angular
 
 When using Sheetbase in an Angular project, install the latest @sheetbase/angular package from npm. This comes with all of the Sheetbase components and Angular specific services and features.
 
