@@ -8,4 +8,4 @@ Create a Sheetbase project using one of the pre-made themes, see themes list: <h
 sheetbase start myapp
 ```
 
-The command will create a project with the [Blank Angular](https://sheetbase.dev/theme/blank-angular) theme. See more themes: <https://sheetbase.dev/themes>.
+The command will create a project with the [Basic Angular](https://sheetbase.dev/theme/basic-angular) theme. See more themes: <https://sheetbase.dev/themes>.

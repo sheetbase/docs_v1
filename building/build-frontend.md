@@ -12,13 +12,11 @@ Sheetbase CLI provides a `build` command for building the project distribution p
 sheetbase frontend build
 ```
 
-Optional, pre-render the app, may need more setup below.
+Optional, pre-render the app, may need Chrome path setup below.
 
 ```sh
 sheetbase frontend prerender
 ```
-
-## The `build` command
 
 You can also run all the command above with one command.
 

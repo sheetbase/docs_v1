@@ -14,11 +14,23 @@ Build frontend distribution package.
 
 - `sheetbase frontend build`
 
+### `prerender`
+
+Prerender the frontend.
+
+- `sheetbase frontend prerender`
+- `sheetbase frontend prerender --force *` // force prerender all
+- `sheetbase frontend prerender -f category` // force prerender categories sheet as well as all routes contains "category"
+- `sheetbase frontend prerender -f category,tag` // multiple force, separated by comma
+- `sheetbase frontend prerender --only category` // prerender only categories sheet as well as all routes contains "category"
+- `sheetbase frontend prerender -o category,tag` // multiple only, separated by comma
+
 ### `deploy`
 
 Deploy the frontend.
 
 - `sheetbase frontend deploy`
+- `sheetbase frontend deploy -m "Git message"` // custom git commit message
 
 ### `install|i`, `uninstall|un`, `run`
 

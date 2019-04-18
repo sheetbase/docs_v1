@@ -60,8 +60,8 @@ The [Sheetbase CLI](https://github.com/sheetbase/cli) provides convenient comman
 
 For an app, backend code lives in **backend/** folder.
 
-- Test: $ `sheetbase backend test`
-- Build: $ `sheetbase backend build`
+- Test: $ `sheetbase backend test` (npm run test)
+- Build: $ `sheetbase backend build` (npm run build)
 - Push code: $ `sheetbase backend push` (update code in the Apps Script server, without redeploy the webapp)
 - Deploy: $ `sheetbase backend deploy` (push code, save new version and redeploy the webapp)
 
@@ -73,7 +73,7 @@ For an app, frontend code lives in **frontend/** folder.
 - E2E: $ `sheetbase frontend e2e` (npm run e2e)
 - Build: $ `sheetbase frontend build` (npm run build)
 - Prerender: $ `sheetbase frontend prerender` (prerender content, save sitemap.xml & robots.txt)
-- Deploy: $ `sheetbase frontend deploy` (redeploy the a static server)
+- Deploy: $ `sheetbase frontend deploy` (redeploy to a static server)
 
 ## Build a REST API server
 
@@ -94,4 +94,4 @@ Before starting develop the backend and frontend code. You may want to edit thes
 - `frontend/src/app/app.config.ts` (project may have separated frontend configs)
 - Frontend theming, for Angular + Ionic, `frontend/src/theme/variables.scss` and Sheetbase theming `frontend/projects/<theme_name>/src/lib/theming/variables.scss`
 
-You want also want to build and deploy the backend for **Review permissions**, see Publishing backend for more.
+You want also want to build and deploy the backend for **Review permissions**, see [Publishing backend](/doc/deploy-backend) for more.

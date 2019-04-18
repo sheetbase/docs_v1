@@ -2,7 +2,7 @@
 
 The Sheetbase project config file.
 
-See sample config file: <https://github.com/sheetbase-themes/simpleblog-angular/blob/master/sheetbase.json>
+See sample config file: <https://github.com/sheetbase-themes/basic-angular/blob/master/sheetbase.json>
 
 ```ts
 {

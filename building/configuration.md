@@ -8,7 +8,7 @@ The `configs` field is for app configuration, after changing the value you need 
 sheetbase config set key=value
 ```
 
-There may be a frontend app config file, for Angular apps, it located in `frontend/src/app/app.config.ts`. We not include this config file to `sheetbase.json` in case you want to reuse the frontend with different backend stack but not Sheetbase backend.
+There may be a frontend app config file, for Angular apps, it located in `frontend/src/app/app.config.ts`. We not include this config file to `sheetbase.json` in case you want to reuse the frontend with different backend stack but not the Sheetbase backend.
 
 ## `driveFolder`
 
@@ -22,12 +22,12 @@ All Sheetbase related backend and frontend app configs comes here.
 
 ```ts
 {
-    backend: {
-        // [key: string]: any,
-    },
-    frontend: {
-        // [key: string]: any,
-    },
+  backend: {
+    // [key: string]: any,
+  },
+  frontend: {
+    // [key: string]: any,
+  },
 }
 ```
 
@@ -37,8 +37,8 @@ Use to tells the CLI if a config value belong to the backend or the frontend, wh
 
 ```ts
 {
-    backend: [], // string[]
-    frontend: [], // string[]
+  backend: [], // string[]
+  frontend: [], // string[]
 }
 ```
 
@@ -48,9 +48,9 @@ This tells the CLI how to display and open project urls correctlly when running 
 
 ```ts
 {
-    // [config_key: string]: [name: string, url_prefix: string, url_suffix: string]
+  // [config_key: string]: [name: string, url_prefix: string, url_suffix: string]
 
-    any: ['foo', 'https://foo.com?id=']
+  any: ['foo', 'https://foo.com?id=']
 }
 ```
 
@@ -60,10 +60,30 @@ When running `$ sheetbase setup`, there are custom theme config values can be cr
 
 ```ts
 {
-    // [config_key: string]: [description: string, hookName: string, ... hook_args: []]
+  // [config_key: string]: [description: string, hookName: string, ... hook_args: []]
 
-    key: ['My secret key', 'randomStr']
+  key: ['My secret key', 'randomStr']
 }
+```
+
+## `models`
+
+Built-in models, <https://github.com/sheetbase/models>.
+
+```ts
+// result is 3 sheets: categories, posts, terms
+[
+  // a list of names
+  "categories",
+  "posts",
+  // custom
+  {
+    "from": "categories", // use categories schema
+    "name": "terms", // rename categories -> terms
+    "public": true, // override public status
+    "gid": "201", // new unique gid for public sheet
+  }
+]
 ```
 
 ## `deployment`
@@ -72,15 +92,15 @@ Deployment configs for easily deploy frontend app with the Sheetbase CLI. For no
 
 ```ts
 {
-    provider: 'github',
-    url: 'https://<org>.github.io/<repo>', // Github domain or custom domain
-    srcDir: '', // path to 'src' folder, default: ./frontend/src
-    wwwDir: '', // path to 'www' folder, default: ./frontend/www
-    stagingDir: '', // custom staging folder, default: ~/sheetbase_staging/<project_name>
-    destination: {
-        gitUrl: 'https://github.com/<org>/<repo>.git', // github .git url
-        // master: true, // use master branch else user gh-pages branch
-    }
+  provider: 'github',
+  url: 'https://<org>.github.io/<repo>', // Github domain or custom domain
+  srcDir: '', // path to 'src' folder, default: ./frontend/src
+  wwwDir: '', // path to 'www' folder, default: ./frontend/www
+  stagingDir: '', // custom staging folder, default: ~/sheetbase_staging/<project_name>
+  destination: {
+    gitUrl: 'https://github.com/<org>/<repo>.git', // github .git url
+    // master: true, // use master branch else user gh-pages branch
+  }
 }
 ```
 
@@ -108,17 +128,35 @@ Prerendering config format:
       "priority": "0.3"
     },
     {
+      "from": "xxx", // xxx sheet
+      "location": "xxx", // .../xxx/<key>
+      "keyField": "slug" // use 'slug' instead of '$key'
+    },
+    {
       "from": "posts",
       "location": "post", // .../post/<post_key>
       "changefreq": "daily",
-      "priority": "1.0"
+      "priority": "1.0",
+      // post segments
+      "segments": [
+        {
+          // post.type === 'article'
+          "where": "type",
+          "equal": "article",
+          // .../location/<post_key>
+          "location": "article",
+          // override sitemap configs
+          "changefreq": "weekly",
+          "priority": "0.9"
+        }
+      ]
     }
   ],
   // include a loading screen
   // true = default loading screen
   "loading": /* true */ { // or custom
-        "html": "<div class=\"loading-screen\">Loading ...</div>",
-        "css": ".loading-screen{color:'red';}"
+    "html": "<div class=\"prerender-loading-screen\">Loading ...</div>",
+    "css": ".prerender-loading-screen{color:'red';}"
   },
 }
 ```

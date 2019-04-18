@@ -2,24 +2,23 @@
 
 We have some ideas for further improve the platform, of course, all hands welcome!
 
-In general, the platform need more tests, bugs fix and improvements.
-
 ## Server modules
 
+- Improve file management module, <https://github.com/sheetbase/drive>
 - Image & video management ([Drive](https://developers.google.com/apps-script/reference/drive/) & [Youtube](https://developers.google.com/apps-script/advanced/youtube))
 - Cache module ([Cache service](https://developers.google.com/apps-script/reference/cache/cache-service)), intergrate it in other modules.
 - Properties module ([Properties service](https://developers.google.com/apps-script/reference/properties/properties-service))
 - JDBC ([JDBC servuce](https://developers.google.com/apps-script/reference/jdbc/))
 - External module ([URL Fetch](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app))
-- Native modules for other external services
+- Modules for other external services
 - And other use cases modules.
 
 ## Client modules
 
-- Improve [@sheetbase/client](https://github.com/sheetbase/client)
-- Improve the Angular wrapper [@sheetbase/angular](https://github.com/sheetbase/angular)
-- A wrapper for **Vue**.
-- A wrapper for **React**.
+- A JS wrapper for **Vue**.
+- A JS wrapper for **React**.
+- A JS client for **Node**.
+- Other language, clients for Sheetbase server.
 
 ## Themes
 

@@ -25,6 +25,7 @@ Push backend code to GAS server.
 Deploy new version of the backend.
 
 - `sheetbase backend deploy` // push and update the web app
+- `sheetbase backend deploy -m "New features"` // with custom message
 
 ### `install|i`, `uninstall|un`, `run`
 

@@ -14,10 +14,44 @@ Sheetbase CLI provides a `build` command for building the project distribution p
 sheetbase backend build
 ```
 
-## The `build` command
-
-You can build the backend by running:
+You can build the backend by running the `build` command:
 
 ```sh
 sheetbase build --backend
 ```
+
+## Test backend
+
+[Sheetbase Testing](https://github.com/sheetbase/testing) package is a tool for testing Sheetbase server routes.
+
+Install: `npm install --save-dev @sheetbase/testing`
+
+Test the backend with **mocha** and **chai**:
+
+```ts
+// import testing browser
+import { Browser } from '@sheetbase/testing';
+
+// import app instance
+import * as App from '../src/index';
+
+// init a browser instance for the app
+const browser = new Browser(App);
+
+// begin test
+describe('Home routes', () => {
+
+  it('GET /', () => {
+    const { body } = browser.get('/');
+    expect(body).to.contain('Sheetbase Backend');
+  });
+
+  it('POST /', () => {
+    const { body } = browser.post('/');
+    expect(body.data).to.eql({ title: 'Sheetbase Backend' });
+  });
+
+});
+```
+
+See more: <https://github.com/sheetbase/testing>

@@ -19,12 +19,14 @@ frontend/ <!-- the frontend app (Angular) -->
     package.json
     tsconfig.json
 sheetbase.json <!-- Sheetbase configs -->
+prerender.json <!-- prerender configs -->
+robots.txt <!-- robots configs -->
 package.json <!-- project info -->
 ```
 
 ## Google Drive
 
-Sheetbase project remote assets stored in a Google Drive folder, there is at least one Apps Script file as the distributed backend app, a [sample](https://drive.google.com/drive/folders/1P2T7e6bYq-VmLaEsOFPBzcddVpzwhZbC?usp=sharing) project structure.
+Sheetbase project remote assets stored in a Google Drive folder, there is at least one Apps Script file as the distributed backend app, a [sample](https://drive.google.com/drive/folders/1oQ02ZmDUaqS7wALyM1oMqx2jllGXXoh8?usp=sharing) project structure.
 
 ```html
 Sheetbase project: My Project <!-- a folder, project home -->
