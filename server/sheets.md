@@ -2,16 +2,16 @@
 
 Using Google Sheets as a database.
 
-Git repo: <https://github.com/sheetbase/sheets-server/>
+Git repo: <https://github.com/sheetbase/sheets/>
 
 ## Getting started
 
-Install: `npm install --save @sheetbase/sheets-server`
+Install: `npm install --save @sheetbase/sheets`
 
 Usage:
 
 ```ts
-import { sheets } from "@sheetbase/sheets-server";
+import { sheets } from "@sheetbase/sheets";
 
 const Sheets = sheets(
   /* configs */ {
@@ -145,7 +145,7 @@ Sheets.registerRoutes({
 
 ### ref
 
-Create a data service for a location. Data service interface: <https://github.com/sheetbase/sheets-server/blob/master/src/lib/data.ts>
+Create a data service for a location. Data service interface: <https://github.com/sheetbase/sheets/blob/master/src/lib/data.ts>
 
 ```ts
 const fooRef = Sheets.ref("/foo");

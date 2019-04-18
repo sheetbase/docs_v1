@@ -2,16 +2,16 @@
 
 Send email using Gmail in Sheetbase backend app.
 
-Git repo: <https://github.com/sheetbase/gmail-server/>
+Git repo: <https://github.com/sheetbase/gmail/>
 
 ## Getting started
 
-Install: `npm install --save @sheetbase/gmail-server`
+Install: `npm install --save @sheetbase/gmail`
 
 Usage:
 
 ```ts
-import { gmail } from "@sheetbase/gmail-server";
+import { gmail } from "@sheetbase/gmail";
 
 const Gmail = gmail(
   /* options */ {

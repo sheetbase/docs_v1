@@ -2,16 +2,16 @@
 
 Sheetbase middleware to authorize with the API Key.
 
-Git repo: <https://github.com/sheetbase/api-key-server/>
+Git repo: <https://github.com/sheetbase/api-key/>
 
 ## Getting started
 
-Install: `npm install --save @sheetbase/api-key-server`
+Install: `npm install --save @sheetbase/api-key`
 
 Usage:
 
 ```ts
-import { middleware as apiKeyMiddleware } from '@sheetbase/api-key-server';
+import { middleware as apiKeyMiddleware } from '@sheetbase/api-key';
 
 const ApiKeyMiddleware = apiKeyMiddleware({ key: 'xxx' });
 
@@ -41,7 +41,7 @@ interface APIKey {
     id?: string;
     title?: string;
     description?: string;
-    createdAt?: number;
+    createdAt?: string | number;
     [k: string]: any;
 }
 ```

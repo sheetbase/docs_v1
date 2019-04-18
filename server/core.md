@@ -2,16 +2,16 @@
 
 Sheetbase core module for backend app.
 
-Git repo: <https://github.com/sheetbase/core-server/>
+Git repo: <https://github.com/sheetbase/server/>
 
 ## Getting started
 
-Install: `npm install --save @sheetbase/core-server`
+Install: `npm install --save @sheetbase/server`
 
 Usage:
 
 ```ts
-import { sheetbase } from '@sheetbase/core-server';
+import { sheetbase } from '@sheetbase/server';
 
 const Sheetbase = sheetbase({ /* configs */ });
 
@@ -48,7 +48,7 @@ List of disabled routes, format: `method:endpoint`. Examples: `[ 'GET:/', 'POST:
 
 ### routingErrors
 
-- Type: [RoutingErrors](https://github.com/sheetbase/core-server/blob/d15caa7d464e98057e94ca810d22d88881214310/src/lib/types.ts#L67)
+- Type: [RoutingErrors](https://github.com/sheetbase/server/blob/d15caa7d464e98057e94ca810d22d88881214310/src/lib/types.ts#L67)
 - Default: `{}`
 
 List of routing errors, by codes, when do `res.error(code)`, the router will show the coresponding error to the client.
@@ -106,8 +106,8 @@ router.get("/", (req, res) => {
 - `html`: return html page.
 - `json`: return json data.
 - `render`: render html template, supports native GAS template, [Handlebars](https://handlebarsjs.com/) and [Ejs](https://ejs.co/).
-- `success`: return json data in form of a [ResponseSuccess](https://github.com/sheetbase/core-server/blob/e6e1235f6b30635860bf3b3945b7fc09f715611b/src/lib/types.ts#L43).
-- `error`: return json data in form of a [ResponseError](https://github.com/sheetbase/core-server/blob/e6e1235f6b30635860bf3b3945b7fc09f715611b/src/lib/types.ts#L32).
+- `success`: return json data in form of a [ResponseSuccess](https://github.com/sheetbase/server/blob/e6e1235f6b30635860bf3b3945b7fc09f715611b/src/lib/types.ts#L43).
+- `error`: return json data in form of a [ResponseError](https://github.com/sheetbase/server/blob/e6e1235f6b30635860bf3b3945b7fc09f715611b/src/lib/types.ts#L32).
 
 ### Routing errors
 
