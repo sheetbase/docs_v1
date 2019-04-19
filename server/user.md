@@ -2,7 +2,7 @@
 
 Sheetbase user management.
 
-Git repo: <https://github.com/sheetbase/user-server/>
+Git repo: <https://github.com/sheetbase/user/>
 
 ## Getting started
 

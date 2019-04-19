@@ -145,7 +145,7 @@ Gmail.send(
 
 ## Routes
 
-To add routes to your app, see options [AddonRoutesOptions](https://github.com/sheetbase/core-server/blob/eb221ec3034d6b53abe11bc1942e1920c8f8d81f/src/lib/types.ts#L71):
+To add routes to your app, see options [AddonRoutesOptions](https://github.com/sheetbase/server/blob/eb221ec3034d6b53abe11bc1942e1920c8f8d81f/src/lib/types.ts#L71):
 
 ```ts
 Gmail.registerRoutes(options?: AddonRoutesOptions);

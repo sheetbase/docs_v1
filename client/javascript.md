@@ -74,31 +74,31 @@ Configs object for `initializeApp()`
 
 Send request to the Sheetbase server.
 
-Server module: <https://github.com/sheetbase/core-server>
+Server module: <https://github.com/sheetbase/server>
 
 ### database
 
 Client for server database.
 
-Server module: <https://github.com/sheetbase/sheets-server>
+Server module: <https://github.com/sheetbase/sheets>
 
 ### storage
 
 Client for server storage.
 
-Server module: <https://github.com/sheetbase/drive-server>
+Server module: <https://github.com/sheetbase/drive>
 
 ### mail
 
 Client for server mail.
 
-Server module: <https://github.com/sheetbase/gmail-server>
+Server module: <https://github.com/sheetbase/gmail>
 
 ### auth
 
 Client for server auth.
 
-Server module: <https://github.com/sheetbase/user-server>
+Server module: <https://github.com/sheetbase/user>
 
 ## API
 

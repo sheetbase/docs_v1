@@ -53,7 +53,6 @@ Found an error, a typo or want to add new articles, please make PRs at <https://
 
 ### CLI
 
-+ [Overview](/cli/overview)
 + [google](/cli/google)
 + [start](/cli/start)
 + [setup](/cli/setup)
