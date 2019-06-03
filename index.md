@@ -27,6 +27,9 @@ Found an error, a typo or want to add new articles, please make PRs at <https://
 + [Configuration](/building/configuration)
 + [Build backend](/building/build-backend)
 + [Build frontend](/building/build-frontend)
++ [Database model](/building/database-model)
++ [Direct database](/building/direct-database)
++ [Social authentication](/building/social-authentication)
   
 ### Publishing
 
